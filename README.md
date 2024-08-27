@@ -4,7 +4,7 @@
 To create a MDP (Markov Decision Process) for the undertaken problem statement
 
 ## PROBLEM STATEMENT:
-
+Finding class room in university building ground floor.
 ### Problem Description
 Find a specific classroom on the ground floor. 7 states and 4 actions.
 ### State Space
@@ -76,7 +76,7 @@ solver_mdp = {
 ```
 
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/971e90d0-6c30-4073-b92b-324a34b6e148)
+![image](https://github.com/user-attachments/assets/5e99a80c-a122-4ef0-b2a5-9cac6d8883a5)
 
 
 ## RESULT:
