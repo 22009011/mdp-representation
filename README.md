@@ -5,39 +5,64 @@ To create a MDP (Markov Decision Process) for the undertaken problem statement
 
 ## PROBLEM STATEMENT:
 Finding class room in university building ground floor.
+
 ### Problem Description
 Find a specific classroom on the ground floor. 7 states and 4 actions.
+
+
 ### State Space
 Specific locations on the ground floor such as hallways and intersections.
+
 Specific classrooms on the ground floor.
 
 ### Sample State
 S1 : At the entrance of the ground floor.
+
 S2 : In hallway 1.
+
 S3: In hallway 2.
+
 𝑆4: At the intersection of two hallways.
+
 𝑆5: In front of classroom 101.
+
 𝑆6: In front of classroom 102.
+
 s7: In front of classroom 103.
+
 ### Action Space
 There are four actions 
+
 A1: Move forward.
+
 𝐴2: Turn left.
+
 𝐴3: Turn right.
+
 𝐴4: Enter a classroom.
+
 ### Sample Action
 Initial State: The student starts at the entrance 
+
 S1 on the ground floor.Goal State: The student needs to find classroom 101, which is on the ground floor.
+
 Policy Example:
+
 𝜋(𝑆1)=𝐴1π(S1)=A 1(Move forward to hallway 1).
+
 𝜋(𝑆2)=𝐴3π(S 2)=A3(Turn right to reach classroom 101).
+
 𝜋(𝑆5)=𝐴4π(S5)=A 4(Enter classroom 101).
 
 ### Reward Function
 R(S5)=+10 (Reward for finding the correct classroom, e.g., 101).
+
 R(S6)=−1 (Penalty for finding the wrong classroom, e.g., 102).
+
 𝑅(𝑆2)=0R(S 2)=0 (Neutral reward for just being in the hallway).
+
 ### Graphical Representation
+
 ![WhatsApp Image 2024-08-27 at 8 23 26 AM](https://github.com/user-attachments/assets/c93331f6-e0ef-4215-836e-242f1f50e078)
 
 
